@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1",
+    "titulo": "Capitão América: Admirável Mundo Novo",
+    "descricao": "Sam se vê no meio de um incidente internacional após se encontrar com o Presidente Thaddeus Ross. Ele precisa descobrir a razão por trás de um nefasto complô global antes que o verdadeiro mentor faça o mundo inteiro ver vermelho.",
+    "diretor": "Julius Onah",
+    "ano": 2025,
+    "trailer":"https://www.youtube.com/watch?v=U7JG6FMoEdM",
+    "genero": "Ação, Aventura, Fantasia",
+    "imagens": [
+      "https://br.web.img3.acsta.net/c_310_420/img/56/0c/560c72bf877f88472877898cebe00ff0.jpg",
+      "https://upload.wikimedia.org/wikipedia/pt/thumb/5/50/A_Minecraft_Movie_p%C3%B4ster.jpg/250px-A_Minecraft_Movie_p%C3%B4ster.jpg",
+      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/11/20/1973597620-minecraftthemoviever3xlg.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Minecraft",
+    "descricao": "Um portal misterioso atrai quatro desajustados para o Overworld, uma terra das maravilhas bizarras e cúbicas que prospera com a imaginação. Para voltar para casa, eles têm que dominar o terreno enquanto embarcam em uma missão mágica com um construtor inesperado chamado Steve...",
+    "diretor": "Jared Hess",
+    "ano": 2025,
+    "trailer":"https://www.youtube.com/embed/EVKYAAES6JQ",
+    "genero": "Animação, Ação, Família, Aventura, Fantasia",
+    "imagens": [
+      "https://upload.wikimedia.org/wikipedia/pt/thumb/5/50/A_Minecraft_Movie_p%C3%B4ster.jpg/250px-A_Minecraft_Movie_p%C3%B4ster.jpg",
+      "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/11/20/1973597620-minecraftthemoviever3xlg.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "titulo": "Vitória",
+    "descricao": "Vitória é uma senhora solitária que, aflita com a violência que passa a tomar conta da sua vizinhança, começa a filmar da janela de seu apartamento. A idosa registra a movimentação de traficantes de drogas da região durante meses, com a intenção de cooperar com o trabalho da polícia.",
+    "diretor": "Andrucha Waddington, Breno Silveira",
+    "ano": 2025,
+    "trailer":"https://www.youtube.com/watch?v=3Zr6YJ02r5g",
+    "genero": "Drama, Policial",
+    "imagens": [
+      "https://upload.wikimedia.org/wikipedia/pt/9/90/Cartaz_do_filme_Vit%C3%B3ria.jpg"
+      
+      
+    ]
+  }
+]

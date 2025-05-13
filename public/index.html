@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mx7 Filmes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/mx.css">
+
+</head>
+<div id="lista-filmes"></div>
+
+
+
+<script>
+    function scrollCarousel(direction) {
+        const track = document.getElementById("carouselTrack");
+        const scrollAmount = 300; 
+    
+        track.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+    </script>
+    
+<body class="bg-black text-white">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <header class="container-fluid bg-black py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="assets/img/demon logo.png" alt="Mx7 Filmes" class="logo" width="150">
+            <nav class="d-none d-md-block">
+               <h2><ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Séries</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Filmes</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Minha Lista</a></li>
+                </ul></h2> 
+               
+            </nav>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar...">
+                <button class="btn btn-danger" type="submit">🔍</button>
+            </form>
+        </div>
+    </header>
+    <div class="carousel-container">
+        <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+        
+        <div class="carousel-track" id="carouselTrack">
+           
+          <a href="det.html?id=1"><img src="https://oregional.com.br/media/blog/a3bba6c11f09da3514fe818953d9eb5d.jpg" alt="Filme 1"></a>
+          <a href="det.html?id=2"><img src="https://all.web.img.acsta.net/img/27/b4/27b4d56dcfb7279f6a36e46da0e7dfa1.jpg" alt="Filme 2"></a>
+          <a href="det.html?id=3"><img src="https://cdn.cineart.com.br/vibezz_638890437.png" alt="Filme 3"></a>
+          <a href="det.html?id=4"><img src="https://cdn.cineart.com.br/vibezz_496192494.jpeg" alt="Filme 4"></a>
+          <a href="det.html?id=5"><img src="https://cdn.cineart.com.br/vibezz_516046744.jpeg" alt="Filme 5"></a>
+          <a href="det.html?id=6"><img src="https://cdn.cineart.com.br/vibezz_33375295.png" alt="Filme 6"></a>
+          <a href="det.html?id=7"><img src="https://cdn.cineart.com.br/vibezz_764676601.png" alt="Filme 7"></a>
+          <a href="det.html?id=8"><img src="https://cdn.cineart.com.br/vibezz_940941070.png" alt="Filme 8"></a>
+          <a href="det.html?id=9"><img src="https://cdn.cineart.com.br/vibezz_523709102.png" alt="Filme 9"></a>
+          <a href="det.html?id=10"><img src="https://image.tmdb.org/t/p/w500/56u4HEtE27uBicriDXuVkUknXQ0.jpg" alt="Filme 10"></a>
+          <a href="det.html?id=11"><img src="https://image.tmdb.org/t/p/w500/ccoL6SB1efI9epaLrqxwHVZ8uKN.jpg" alt="Filme 11"></a>
+          <a href="det.html?id=12"><img src="https://image.tmdb.org/t/p/w500/rvSEowY2XE0Gb06FBEwQng2M6KX.jpg" alt="Filme 12"></a>
+          <a href="det.html?id=13"><img src="https://image.tmdb.org/t/p/w500/wY5LO3EGZzLnCccSObdioK47Mxw.jpg" alt="Filme 13"></a>
+          <a href="det.html?id=14"><img src="https://image.tmdb.org/t/p/w500/9jDbuQ6ykxOo6rmlaIrGucOfuDN.jpg" alt="Filme 14"></a>
+        
+        </div>
+      
+        <button class="carousel-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+      </div>
+        
+       
+   
+
+        <section class="mb-4">
+           
+        </section>
+        
+        
+        <section class="mb-4">
+            <section class="mb-4">
+                <h2>Mais Buscados</h2>
+                <div class="row g-3">
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=15"><img src="https://image.tmdb.org/t/p/original/mI1Ktgg7LuhwAhUgke4rHUxlDUr.jpg" class="img-fluid rounded" alt="Filme 1"></a>
+                            <div class="filme-descricao">Após Thanos eliminar metade das criaturas vivas...</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=16"><img src="https://escolaeducacao.com.br/wp-content/uploads/2019/04/boneco-do-mal.jpg" class="img-fluid rounded" alt="Filme 2"></a>
+                            <div class="filme-descricao">Uma babá norte-americana é surpreendida ao descobrir...</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=17"><img src="https://www.cafecomfilme.com.br/media/k2/items/cache/50f8055cbf99a024c0772160c01fed2b_XL.jpg?t=20210108_154337" class="img-fluid rounded" alt="Filme 3"></a>
+                            <div class="filme-descricao">Brian O'Conner é um policial que se infiltra no submundo...</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=18"><img src="https://www.themoviedb.org/t/p/original/mBxOeqHQvdF5lxGtDUB6XVcJNi5.jpg" class="img-fluid rounded" alt="Filme 4"></a>
+                            <div class="filme-descricao">Após ser culpado pela morte de Harvey Dent...</div>
+                        </div>
+                    </div>
+                   
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+        <section class="mb-4">
+            <section class="mb-4">
+                <h2>Continue Assistindo</h2>
+                <div class="row g-3">
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=23"><img src="https://br.web.img2.acsta.net/pictures/17/10/23/19/55/0260439.jpg" class="img-fluid rounded" alt="Filme 9"></a>
+                            <div class="filme-descricao">Impulsionado pela restauração de sua fé na humanidade...</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=24"><img src="https://1.bp.blogspot.com/-aKIBA0qDGpk/Vl5Y1URIcEI/AAAAAAAANwA/Yo6gMsuOXZU/s1600/exterminador_do_futuro_genesis.jpg" class="img-fluid rounded" alt="Filme 10"></a>
+                            <div class="filme-descricao">Disfarçado de humano, o assassino conhecido como o Exterminador...</div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="filme-container">
+                            <a href="det.html?id=26"><img src="https://www.papodecinema.com.br/wp-content/uploads/2013/04/20180308-homem-de-ferro-3-papo-de-cinema-cartaz.jpg" class="img-fluid rounded" alt="Filme 12"></a>
+                            <div class="filme-descricao">Depois de um inimigo reduzir o mundo de Tony Stark a destroços...</div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </section>
+            
+
+        <section class="mb-4">
+            <h2>Brasil Top 5 Séries Hoje</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-3">
+                    <div class="filme-container">
+                        <a href="det.html?id=28"><img src="https://br.web.img2.acsta.net/c_310_420/img/fc/12/fc124ed242bc4bc20438ea753b7c8de7.jpg" class="img-fluid rounded" alt="Série 1"></a>
+                        <div class="filme-descricao">*Bárbara Hidalgo (Juana Acosta) é a CEO da empresa Medusa, um poderoso conglomerado empresarial da Colômbia...</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="filme-container">
+                        <a href="det.html?id=29"><img src="https://br.web.img3.acsta.net/c_310_420/img/9e/dd/9edda21cfc298e8b1ce16497dc47118c.jpg" class="img-fluid rounded" alt="Série 2"></a>
+                        <div class="filme-descricao">Quando o Telefone Toca é uma série coreana de drama, mistério e romance sobre um político que se casa com uma mulher que não fala...</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="filme-container">
+                        <a href="det.html?id=30"><img src="https://br.web.img2.acsta.net/c_310_420/pictures/22/02/21/20/10/2589351.jpg" class="img-fluid rounded" alt="Série 3"></a>
+                        <div class="filme-descricao">Conta a história de uma guerra entre a humanidade e uma aliança alienígena no século XXVI. A trama é baseada no videogame...</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="filme-container">
+                        <a href="det.html?id=31"><img src="https://images.justwatch.com/poster/324983705/s166/temporada-1.avif" class="img-fluid rounded" alt="Série 4"></a>
+                        <div class="filme-descricao">Cassandra se passa em uma casa inteligente desenvolvida nos anos 1970. A assistente virtual, Cassandra, é reativada por uma nova família...</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="filme-container">
+                        <a href="det.html?id=32"><img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/01/31/1846665027-4748042179498481306135786375235378897470639n.jpg" class="img-fluid rounded" alt="Série 5"></a>
+                        <div class="filme-descricao">É uma série de comédia da Netflix sobre Isla Gordon, que assume a presidência do time de basquete da família...</div>
+                    </div>
+               
+                </div>
+            </div>
+            
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <h3>Informações do aluno</h3>
+            <a href="#" class="active-tab">Sobre</a>
+            <p>Sou o Gabriel Max, iníciei esse ano o curso de análise e desenvolvimento de sistemas na PUC minas Campus São Gabriel no turno da noite.</p>
+          </div>
+      
+          <div class="footer-right">
+            <h4>Autor</h4>
+            <p><strong>Aluno:</strong> Gabriel Max</p>
+            <p><strong>Curso:</strong> Analise e desenvolvimento de sistemas </p>
+            <p><strong>Turma:</strong> Noite</p>
+      
+            <div class="social">
+              <h4>Redes Sociais:</h4>
+              <a href="#"><img src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg?semt=ais_hybrid&w=740" alt="Instagram" class="icon"></a>
+              <a href="https://www.instagram.com/__maaax7/profilecard/?igsh=N3R0b2cyaTBvY2M0" target="_blank">__maaax7</a>
+<p>
+              <a href="gabrielmaxrodrigues@gmail.com"><img src="https://img.freepik.com/psd-gratuitas/ilustracao-de-icone-de-contacto-isolada_23-2151903349.jpg?ga=GA1.1.222620776.1744666658&semt=ais_hybrid&w=740" alt="Twitter" class="icon"></a>
+              <a href="gabrielmaxrodrigues@gmail.com">gabrielmaxrodrigues@gmail.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/scripts/trabalho.js"></script>
+</body>
+</html>
