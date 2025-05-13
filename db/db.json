@@ -1,18 +1,28 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Capitão América: Admirável Mundo Novo",
+      "ano": 2025,
+      "Diretor": "Julius Onah",
+      "genero": "Ação, Aventura, Ficção Científica",
+      "descricao": "Sam se vê no meio de um incidente internacional após se encontrar com o Presidente Thaddeus Ross. Ele precisa descobrir a razão por trás de um nefasto complô global antes que o verdadeiro mentor faça o mundo inteiro ver vermelho"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Minecraft",
+      "ano": 2025,
+       "diretor": "Jared Hess",
+      "genero": "Animação, Ação, Família, Aventura, Fantasia",
+      "descricao": "Um portal misterioso atrai quatro desajustados para o Overworld, uma terra das maravilhas bizarras e cúbicas que prospera com a imaginação. Para voltar para casa, eles têm que dominar o terreno enquanto embarcam em uma missão mágica com um construtor inesperado chamado Steve..."
+    },
+    {
+      "id": 3,
+      "titulo": "Vitória",
+      "ano": 2025,
+       "diretor": "Andrucha Waddington, Breno Silveira",
+      "genero": "Drama, Policial",
+      "descricao": "Vitória é uma senhora solitária que, aflita com a violência que passa a tomar conta da sua vizinhança, começa a filmar da janela de seu apartamento. A idosa registra a movimentação de traficantes de drogas da região durante meses, com a intenção de cooperar com o trabalho da polícia."
     }
   ]
 }
