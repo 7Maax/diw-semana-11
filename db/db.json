@@ -1,28 +1,325 @@
 {
   "filmes": [
     {
-      "id": 1,
-      "titulo": "Capitão América: Admirável Mundo Novo",
-      "ano": 2025,
-      "Diretor": "Julius Onah",
-      "genero": "Ação, Aventura, Ficção Científica",
-      "descricao": "Sam se vê no meio de um incidente internacional após se encontrar com o Presidente Thaddeus Ross. Ele precisa descobrir a razão por trás de um nefasto complô global antes que o verdadeiro mentor faça o mundo inteiro ver vermelho"
+        "id": 1,
+        "titulo": "Capitão América: Admirável Mundo Novo",
+        "imagem": "https://br.web.img3.acsta.net/c_310_420/img/56/0c/560c72bf877f88472877898cebe00ff0.jpg",
+        "diretor": "Julius Onah",
+        "descricao": "Sam se vê no meio de um incidente internacional após se encontrar com o Presidente Thaddeus Ross. Ele precisa descobrir a razão por trás de um nefasto complô global antes que o verdadeiro mentor faça o mundo inteiro ver vermelho",
+        "ano": 2025,
+        "genero": "Ação, Aventura, Ficção Científica",
+        "trailer": "https://www.youtube.com/embed/U7JG6FMoEdM"
     },
     {
-      "id": 2,
-      "titulo": "Minecraft",
-      "ano": 2025,
-       "diretor": "Jared Hess",
-      "genero": "Animação, Ação, Família, Aventura, Fantasia",
-      "descricao": "Um portal misterioso atrai quatro desajustados para o Overworld, uma terra das maravilhas bizarras e cúbicas que prospera com a imaginação. Para voltar para casa, eles têm que dominar o terreno enquanto embarcam em uma missão mágica com um construtor inesperado chamado Steve..."
+        "id": 2,
+        "titulo": "Minecraft",
+        "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/50/A_Minecraft_Movie_p%C3%B4ster.jpg/250px-A_Minecraft_Movie_p%C3%B4ster.jpg",
+        "diretor": "Jared Hess",
+        "descricao": "Um portal misterioso atrai quatro desajustados para o Overworld, uma terra das maravilhas bizarras e cúbicas que prospera com a imaginação. Para voltar para casa, eles têm que dominar o terreno enquanto embarcam em uma missão mágica com um construtor inesperado chamado Steve...",
+        "ano": 2025,
+        "genero": "Animação, Ação, Família, Aventura, Fantasia",
+        "trailer": "https://www.youtube.com/embed/EVKYAAES6JQ"
     },
     {
-      "id": 3,
-      "titulo": "Vitória",
-      "ano": 2025,
-       "diretor": "Andrucha Waddington, Breno Silveira",
-      "genero": "Drama, Policial",
-      "descricao": "Vitória é uma senhora solitária que, aflita com a violência que passa a tomar conta da sua vizinhança, começa a filmar da janela de seu apartamento. A idosa registra a movimentação de traficantes de drogas da região durante meses, com a intenção de cooperar com o trabalho da polícia."
+        "id": 3,
+        "titulo": "Vitória",
+        "imagem": "https://upload.wikimedia.org/wikipedia/pt/9/90/Cartaz_do_filme_Vit%C3%B3ria.jpg",
+        "diretor": "Andrucha Waddington, Breno Silveira",
+        "descricao": "Vitória é uma senhora solitária que, aflita com a violência que passa a tomar conta da sua vizinhança, começa a filmar da janela de seu apartamento. A idosa registra a movimentação de traficantes de drogas da região durante meses, com a intenção de cooperar com o trabalho da polícia.",
+        "ano": 2025,
+        "genero": "Drama, Policial",
+        "trailer": "https://www.youtube.com/embed/3Zr6YJ02r5g"
+    },
+    {
+        "id": 4,
+        "titulo": "Operação Vingança",
+        "imagem": "https://cdn.cineart.com.br/vibezz_496192494.jpeg",
+        "diretor": "James Hawes",
+        "descricao": "Charlie Heller (Malek) é um brilhante, mas totalmente introvertido, decodificador da CIA que trabalha em um escritório no porão da sede em Langley e tem sua vida virada de cabeça para baixo quando sua esposa é assassinada em um ataque terrorista em Londres. Quando seus supervisores se recusam a tomar providências, ele decide resolver o problema com suas próprias mãos, embarcando em uma perigosa jornada pelo mundo para encontrar os responsáveis. Sua inteligência se torna sua arma mais poderosa para despistar seus perseguidores e conseguir sua vingança.",
+        "ano": 2025,
+        "genero": "Ação, Suspense, Espionagem, Drama",
+        "trailer": "https://www.youtube.com/embed/y3YWAXJKPes"
+    },
+    {
+        "id": 5,
+        "titulo": "Branca de Neve",
+        "imagem": "https://cdn.cineart.com.br/vibezz_516046744.jpeg",
+        "diretor": "Mark Webb",
+        "descricao": "Uma recriação do clássico animado de Walt Disney de 1937 sobre uma bela jovem princesa que, enquanto é perseguida por uma rainha ciumenta, busca refúgio em uma cabana em uma floresta.",
+        "ano": 2025,
+        "genero": "Fantasia Musical",
+        "trailer": "https://www.youtube.com/embed/X3o9GyKda1k"
+    },
+    {
+        "id": 6,
+        "titulo": "DROP: AMEAÇA ANÔNIMA",
+        "imagem": "https://cdn.cineart.com.br/vibezz_33375295.png",
+        "diretor": "Christopher B. Landon",
+        "descricao": "Violet é uma mãe viúva que vai a um restaurante para se encontrar com Henry. No entanto, ela logo recebe mensagens de telefone de uma figura misteriosa encapuzada que ameaça matar seu filho pequeno e sua irmã, a menos que ela mate Henry.",
+        "ano": 2025,
+        "genero": "Suspense e Mistério",
+        "trailer": "https://www.youtube.com/embed/dv-XeNIFvNA"
+    },
+    {
+        "id": 7,
+        "titulo": "The Chosen: Última Ceia",
+        "imagem": "https://cdn.cineart.com.br/vibezz_764676601.png",
+        "diretor": "Dallas Jenkins",
+        "descricao": "The Chosen: Última Ceia é um filme que retrata a última ceia de Jesus com seus discípulos. O filme é parte da série bíblica The Chosen, que se baseia na vida de Jesus Cristo.",
+        "ano": 2025,
+        "genero": "Drama Histórico e Religioso",
+        "trailer": "https://www.youtube.com/embed/KC0gUEX3P30"
+    },
+    {
+        "id": 8,
+        "titulo": "Presence",
+        "imagem": "https://cdn.cineart.com.br/vibezz_940941070.png",
+        "diretor": "Steven Soderbergh",
+        "descricao": "Uma família se muda para uma nova casa, onde uma presença misteriosa assombra o lugar.",
+        "ano": 2025,
+        "genero": "Terror, Suspense, Suspense Psicológico",
+        "trailer": "https://www.youtube.com/embed/QbXOCYU1dQc"
+    },
+    {
+        "id": 9,
+        "titulo": "Kaiju No. 8: Mission Recon",
+        "imagem": "https://cdn.cineart.com.br/vibezz_523709102.png",
+        "diretor": "Shigeyuki Miya, Tomomi Kamiya",
+        "descricao": "Kafka Hibino entra para a Força de Defesa para eliminar os terríveis Kaijus, bestas poderosas que assolam o Japão. Mas Kafka esconde um segredo, ele próprio ganhou a habilidade de se tornar um Kaiju, usando seus poderes para combater as criaturas.",
+        "ano": 2025,
+        "genero": "Animação/Aventura",
+        "trailer": "https://www.youtube.com/embed/ogww5lNDgDU"
+    },
+    {
+        "id": 10,
+        "titulo": "O Macaco",
+        "imagem": "https://image.tmdb.org/t/p/w500/56u4HEtE27uBicriDXuVkUknXQ0.jpg",
+        "diretor": "Oz Perkins",
+        "descricao": "Irmãos gêmeos encontram um misterioso macaco de corda. Após a descoberta, uma série de mortes absurdas destroça a família. Muitos anos depois, o macaco inicia uma nova onda de assassinatos, forçando os irmãos a enfrentar o brinquedo amaldiçoado.",
+        "ano": 2025,
+        "genero": "Terror, Suspense",
+        "trailer": "https://www.youtube.com/embed/husMGbXEIho"
+    },
+  {
+    "id": 11,
+    "titulo": "Segredos do Passado",
+    "imagem": "https://image.tmdb.org/t/p/w500/aFhFE8ZFXhg1N9YqxZBdptMLgsh.jpg",
+    "diretor": "David Fincher",
+    "descricao": "Um detetive investigativo descobre uma rede secreta de corrupção dentro do sistema judicial enquanto tenta desvendar o assassinato de uma jovem mulher em uma cidade pequena.",
+    "ano": 2025,
+    "genero": "Mistério, Crime, Drama",
+    "trailer": "https://www.youtube.com/embed/gzmggYTvhNk"
+  }
+,
+{
+    "id": 12,
+    "titulo": "O Enigma de Ouro",
+    "imagem": "https://image.tmdb.org/t/p/w500/vcZJwvv0v1uw0PjU3PVsT7Kv1da.jpg",
+    "diretor": "Ridley Scott",
+    "descricao": "Um arqueólogo e um historiador unem forças para decifrar um antigo código em busca de um tesouro perdido, mas enfrentam desafios mortais enquanto são perseguidos por uma sociedade secreta.",
+    "ano": 2025,
+    "genero": "Aventura, Mistério, Suspense",
+    "trailer": "https://www.youtube.com/embed/TYtIZhcdgL8"
+},
+{
+    "id": 13,
+    "titulo": "Aliados Improváveis",
+    "imagem": "https://image.tmdb.org/t/p/w500/izHqnsOtbRVm0RSnfaDtvugF7ZJ.jpg",
+    "diretor": "Steven Spielberg",
+    "descricao": "Durante a Segunda Guerra Mundial, dois soldados de diferentes países formam uma aliança improvável enquanto tentam sobreviver a uma missão altamente perigosa atrás das linhas inimigas.",
+    "ano": 2025,
+    "genero": "Guerra, Drama, Ação",
+    "trailer": "https://www.youtube.com/embed/W0X2tC2AYCU"
+},
+{
+    "id": 14,
+    "titulo": "Invasão Silenciosa",
+    "imagem": "https://image.tmdb.org/t/p/w500/1yuwz4KO3EPL6SP9J0Dse4VYdml.jpg",
+    "diretor": "James Cameron",
+    "descricao": "Uma civilização alienígena invade a Terra, mas o ataque não é como qualquer outro. Em vez de destruir as cidades, eles tentam se infiltrar na sociedade humana, criando uma ameaça silenciosa.",
+    "ano": 2025,
+    "genero": "Ficção Científica, Ação, Suspense",
+    "trailer": "https://www.youtube.com/embed/lQtQTpSdjIM"
+},
+{
+    "id": 15,
+    "titulo": "Conexões Perigosas",
+    "imagem": "https://image.tmdb.org/t/p/w500/rnyJm7qYy59hvldkOd0pyT6fzCn.jpg",
+    "diretor": "Christopher McQuarrie",
+    "descricao": "Em um mundo de espionagem e intriga internacional, um agente secreto deve navegar entre alianças e traições enquanto tenta impedir um plano global que pode colocar todos em risco.",
+    "ano": 2025,
+    "genero": "Ação, Thriller, Espionagem",
+    "trailer": "https://www.youtube.com/embed/T3fZYhtQPMs"
+},
+{
+    "id": 16,
+    "titulo": "Renegados do Futuro",
+    "imagem": "https://image.tmdb.org/t/p/w500/1w3BfmqDT78uQHzTXXKNrhl4SHm.jpg",
+    "diretor": "Neill Blomkamp",
+    "descricao": "Em um futuro pós-apocalíptico, um grupo de sobreviventes deve lutar para reconstruir a civilização enquanto enfrentam ameaças internas e externas. A confiança será a chave para sua sobrevivência.",
+    "ano": 2025,
+    "genero": "Ficção Científica, Ação, Drama",
+    "trailer": "https://www.youtube.com/embed/V__qKHptlsY"
+},
+{
+    "id": 17,
+    "titulo": "Reflexos do Passado",
+    "imagem": "https://image.tmdb.org/t/p/w500/hgDPbD2jlttDR5FwPpE4dDdOtLk.jpg",
+    "diretor": "Martin Scorsese",
+    "descricao": "Um homem volta à sua cidade natal após anos de ausência e começa a desenterrar segredos de sua família que ele jamais imaginou. Mas as revelações trazem mais dor do que ele esperava.",
+    "ano": 2025,
+    "genero": "Drama, Mistério, Suspense",
+    "trailer": "https://www.youtube.com/embed/0QJHkvBtv6I"
+},
+{
+    "id": 18,
+    "titulo": "Cidade de Vidro",
+    "imagem": "https://image.tmdb.org/t/p/w500/5KJjf9DBO2Qx3JkxxVXlxOFmjow.jpg",
+    "diretor": "David Lynch",
+    "descricao": "Após o desaparecimento de uma jovem, um detetive particular é contratado para investigar. À medida que ele se aprofunda no caso, ele se vê preso em uma rede de mentiras e ilusões.",
+    "ano": 2025,
+    "genero": "Mistério, Thriller, Drama",
+    "trailer": "https://www.youtube.com/embed/UohC8nzAkik"
+},
+{
+    "id": 19,
+    "titulo": "Caçadores de Sombras",
+    "imagem": "https://image.tmdb.org/t/p/w500/92O58Hi5ZfDfuLSPXYiqzytVzA4.jpg",
+    "diretor": "Guillermo del Toro",
+    "descricao": "Em uma cidade onde a magia está desaparecendo, um grupo de caçadores de sombras é chamado para encontrar um artefato antigo que pode restaurar o equilíbrio entre o mundo humano e o sobrenatural.",
+    "ano": 2025,
+    "genero": "Fantasia, Aventura, Mistério",
+    "trailer": "https://www.youtube.com/embed/KzjLsgoJbEk"
+},
+{
+    "id": 20,
+    "titulo": "A Última Fronteira",
+    "imagem": "https://image.tmdb.org/t/p/w500/xYZbQy7u2z0yYwqFj5rd2JfJ5M6.jpg",
+    "diretor": "James Cameron",
+    "descricao": "Exploradores espaciais partem para uma missão em um planeta distante, onde descobrirão segredos que podem mudar a história da humanidade. Mas nem tudo é o que parece nesse novo mundo.",
+    "ano": 2025,
+    "genero": "Ficção Científica, Aventura, Mistério",
+    "trailer": "https://www.youtube.com/embed/UdPZ_LR6YrM"
+},
+    {
+        "id": 21,
+        "titulo": "O Reinado do Céu",
+        "imagem": "https://image.tmdb.org/t/p/w500/1G4PbB5sXqJ1A8Qv7Lq2vAsL2yF.jpg",
+        "diretor": "Ridley Scott",
+        "descricao": "A história de um cavaleiro que se vê envolvido em um conflito medieval por sua lealdade a um reino distante. Em uma batalha de fé, honra e traição, ele deverá escolher seu verdadeiro destino.",
+        "ano": 2024,
+        "genero": "Ação, Aventura, Drama",
+        "trailer": "https://www.youtube.com/watch?v=XQJfzFtN74M"
+    },
+    {
+        "id": 22,
+        "titulo": "O Último Suspiro",
+        "imagem": "https://image.tmdb.org/t/p/w500/jfK4SsxWGe77QAyDLVm5H4bYbNl.jpg",
+        "diretor": "Francis Lawrence",
+        "descricao": "Uma jovem cientista, especializada em genética, descobre uma possibilidade que pode curar doenças incuráveis. No entanto, a busca por sua invenção a leva a um perigoso dilema moral, com consequências que podem mudar a humanidade para sempre.",
+        "ano": 2025,
+        "genero": "Ficção Científica, Drama, Thriller",
+        "trailer": "https://www.youtube.com/watch?v=R9TRZav4k7M"
+    },
+    {
+        "id": 23,
+        "titulo": "Em Nome da Liberdade",
+        "imagem": "https://image.tmdb.org/t/p/w500/si7b4h8lbwfcG9I10QeXM4ckxjG.jpg",
+        "diretor": "Steven Spielberg",
+        "descricao": "Durante a Segunda Guerra Mundial, um soldado americano se vê forçado a lutar por sua vida enquanto tenta proteger civis inocentes. À medida que a guerra se intensifica, ele é desafiado a fazer escolhas difíceis em nome da liberdade.",
+        "ano": 2024,
+        "genero": "Drama, Guerra",
+        "trailer": "https://www.youtube.com/watch?v=Bjz8Sx9tQBY"
+    },
+    {
+        "id": 24,
+        "titulo": "No Limite do Medo",
+        "imagem": "https://image.tmdb.org/t/p/w500/lk1HfjYr9nmft8OhIsz0bbLtwGZ.jpg",
+        "diretor": "David Fincher",
+        "descricao": "Em uma pequena cidade, um detetive é chamado para investigar uma série de assassinatos brutais. No entanto, conforme ele se aproxima da verdade, ele começa a perceber que o maior inimigo pode ser a própria mente humana.",
+        "ano": 2025,
+        "genero": "Mistério, Thriller, Crime",
+        "trailer": "https://www.youtube.com/watch?v=GH2lzJ5nbH4"
+    },
+    {
+        "id": 25,
+        "titulo": "O Vingador Solitário",
+        "imagem": "https://image.tmdb.org/t/p/w500/q9R9GVvQ65jDqvn8pzU98QsmDdO.jpg",
+        "diretor": "Quentin Tarantino",
+        "descricao": "Após a perda de tudo o que amava, um homem se transforma em um implacável vingador. Sua jornada de sangue o leva a um confronto final com aqueles que destruíram sua vida, em um clímax explosivo.",
+        "ano": 2025,
+        "genero": "Ação, Suspense, Drama",
+        "trailer": "https://www.youtube.com/watch?v=a4ZDce8xXw4"
+    },
+    {
+        "id": 26,
+        "titulo": "Reflexo da Alma",
+        "imagem": "https://image.tmdb.org/t/p/w500/zLqvJ7ehZZFb1ZauNcYvKOtqapd.jpg",
+        "diretor": "Christopher Nolan",
+        "descricao": "Em um mundo onde os pensamentos podem ser projetados como imagens, um psicólogo tenta lidar com os fantasmas do seu passado enquanto ajuda seus pacientes a entenderem as realidades alternativas dentro de suas mentes.",
+        "ano": 2024,
+        "genero": "Ficção Científica, Drama, Suspense",
+        "trailer": "https://www.youtube.com/watch?v=pF8TjwvIht4"
+    },
+    {
+        "id": 27,
+        "titulo": "A Última Fronteira",
+        "imagem": "https://image.tmdb.org/t/p/w500/ef7aXe8k2EGBXrXsfQEZTR5q5kF.jpg",
+        "diretor": "James Cameron",
+        "descricao": "Em um futuro distópico, a humanidade busca um novo planeta para colonizar. Mas o que eles encontram em sua jornada é algo que ameaça não apenas sua sobrevivência, mas o próprio futuro da Terra.",
+        "ano": 2025,
+        "genero": "Aventura, Ficção Científica, Ação",
+        "trailer": "https://www.youtube.com/watch?v=fmbjsD8wxUk"
+    },
+    {
+        "id": 28,
+        "titulo": "A Jornada do Destino",
+        "imagem": "https://image.tmdb.org/t/p/w500/s5GRWwNmt33vppfJgHe2Ogg9IHX.jpg",
+        "diretor": "Peter Jackson",
+        "descricao": "Um herói improvável é escolhido para embarcar em uma jornada épica, com o objetivo de salvar o mundo de uma antiga ameaça. No caminho, ele deve confrontar seus próprios medos e descobrir o verdadeiro significado de coragem.",
+        "ano": 2025,
+        "genero": "Aventura, Fantasia, Drama",
+        "trailer": "https://www.youtube.com/watch?v=SY4jG4krsxA"
+    },
+    {
+        "id": 29,
+        "titulo": "O Códice do Silêncio",
+        "imagem": "https://image.tmdb.org/t/p/w500/twLVzP3zwnWXM0h7z60Ntw5j5yQ.jpg",
+        "diretor": "Ridley Scott",
+        "descricao": "Um arqueólogo é chamado para resolver o mistério de um códice medieval perdido. Mas à medida que ele se aprofunda na investigação, ele descobre que o códice é mais do que um simples artefato histórico, é a chave para um poder antigo e perigoso.",
+        "ano": 2024,
+        "genero": "Mistério, Aventura, Thriller",
+        "trailer": "https://www.youtube.com/watch?v=X5Ez0ADn5rE"
+    },
+    {
+        "id": 30,
+        "titulo": "O Último Suspeito",
+        "imagem": "https://image.tmdb.org/t/p/w500/mDCqGyCkPpjLX0GHf5M1VGE45wt.jpg",
+        "diretor": "Alfred Hitchcock",
+        "descricao": "Um detetive aposentado é forçado a voltar à ativa quando um assassinato é cometido em sua cidade natal. Enquanto ele investiga, ele começa a questionar se ele próprio pode ser o próximo alvo.",
+        "ano": 2025,
+        "genero": "Mistério, Suspense, Crime",
+        "trailer": "https://www.youtube.com/watch?v=RYpjtjzoRJg"
+    },
+    {
+        "id": 31,
+        "titulo": "Conspiração Global",
+        "imagem": "https://image.tmdb.org/t/p/w500/1u4hQ0u3Il3g0w0yb95W4GH3WTd.jpg",
+        "diretor": "Oliver Stone",
+        "descricao": "Uma jornalista investiga uma conspiração que abrange governos, corporações e mídias em todo o mundo. Quanto mais ela descobre, mais ela se torna alvo de forças poderosas que querem manter a verdade oculta.",
+        "ano": 2025,
+        "genero": "Thriller, Suspense, Drama",
+        "trailer": "https://www.youtube.com/watch?v=YwAKnyFx93A"
+    },
+    {
+        "id": 32,
+        "titulo": "O Príncipe do Caos",
+        "imagem": "https://image.tmdb.org/t/p/w500/j9TrjCVNz8YjlIGx5noDi2d3GT6.jpg",
+        "diretor": "Guy Ritchie",
+        "descricao": "Em um mundo onde as grandes potências estão em guerra, um príncipe renegado decide lutar pela sua coroa e pela sua liberdade. Em uma jornada de traições, vingança e alianças inesperadas, ele enfrentará seu destino.",
+        "ano": 2024,
+        "genero": "Ação, Aventura, Drama",
+        "trailer": "https://www.youtube.com/watch?v=JlD4jvnp-Zk"
     }
   ]
 }

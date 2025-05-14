@@ -287,7 +287,16 @@ trailer: "https://www.youtube.com/embed/thA5bHMjOI4",
         document.getElementById('filme-descricao').textContent = filme.descricao;
         document.getElementById('trailer-video').src = filme.trailer;
     }
+    const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+
+
+fetch(`http://localhost:3000/filmes/${id}`)
+  .then(res => res.json())
+  .then(dados => {
     
+  });
+
     }
     
   
